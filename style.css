@@ -1,0 +1,75 @@
+body{
+    font-size: 20px;    
+}
+.heading{
+width: 50%;
+margin: 30px auto;
+text-align: center;
+color: blueviolet;
+background: brown;
+border: 2px solid  springgreen;
+border-radius: 20px;
+
+}
+form {
+    width: 50%;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 10px;
+    background: tomato;
+    border: 1px solid  #6b8e23;
+}
+form p{
+    color: red;
+    margin: 0px;
+}
+
+.task_input {
+    width: 73%;
+    height: 15px;
+    padding: 10px;
+    border: 2px solid darkgoldenrod;
+
+}
+.add_btn {
+    height: 39px;
+    background: darkgrey;
+    color: darkolivegreen;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+tr {
+    border-bottom: 1px solid darkslateblue;
+}
+th {
+    font-size: 19px;
+    color: rgb(24, 201, 68);
+}
+th, td {
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover{
+    background: hotpink;
+}
+.task {
+    text-align: left;
+}
+.delete {
+    text-align: center;
+}
+.delete a{
+    color: rgb(187, 180, 167);
+    background: yellow;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+}
